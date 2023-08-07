@@ -14,15 +14,14 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="body">
     <div className="login-container">
-      <div className="logo-top-left">
-        <img src={logo} alt="FutureLog AG" />
-      </div>
+      
       <div className="login-form">
         <div className="logo-login">
           <img src={logo} alt="FutureLog AG" />
         </div>
-        <h2>Login</h2>
+        <h2>Supplier Module</h2>
         <div className="form-group">
           <label htmlFor="supplierID">Supplier ID:</label>
           <input
@@ -43,6 +42,7 @@ const LoginPage = () => {
         </div>
         <button onClick={handleLogin}>Login</button>
       </div>
+    </div>
     </div>
   );
 };
